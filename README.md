@@ -232,7 +232,7 @@ Very popular for structured data competitions (like Kaggle).
 Provided the best prediction accuracy out of the three models in this project.
 
 3. Model Evaluation
-I used Mean Absolute Error (MAE) to compare the models. Lower MAE = better predictions.
+I used Mean Absolute Error (MAE) to compare the models.
 A bar chart was created to visually compare model performances.
 A scatter plot was used to check how close the predicted prices were to the actual prices.
 
@@ -241,9 +241,10 @@ All three models gave good predictions, but XGBoost performed the best, meaning 
 This shows that machine learning can effectively estimate housing prices using available data.
 
 5. What I Learned
-How to clean and prepare real-world data.
-How to split and scale data for machine learning.
-How to train and evaluate multiple regression models.
-How to visualize and interpret prediction results.
+- How to clean and prepare real-world data.
+- How to split and scale data for machine learning.
+- How to train and evaluate multiple regression models.
+- How to visualize and interpret prediction results.
 
 
+#### Thanks to the instructors, classmates, Kaggle community and resources that helped me learn and build this project!
