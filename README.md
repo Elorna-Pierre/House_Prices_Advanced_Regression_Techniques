@@ -200,4 +200,49 @@ df.to_csv('cleaned_data.csv', index=False)
 #Show the size of the new data
 print("Cleaned data shape:", df.shape)
 
+</prev>  
+
+
+
+## Model 
+
+
+## Data Cleaning & Processing 
+
+1. Data Preparation
+- I started with a cleaned dataset containing numeric features and the target variable SalePrice.
+- The data was split into training, validation, and test sets to help prevent overfitting and allow fair model evaluation.
+- I used StandardScaler to normalize the input features, making the models perform better, especially for algorithms sensitive to feature scales.
+
+2.  Models Used
+- Random Forest Regressor
+An ensemble of decision trees.
+Works well with high-dimensional data and handles non-linear relationships.
+MAE (Mean Absolute Error): Shows how far off the predictions were, on average.
+
+- Gradient Boosting Regressor
+Builds trees one at a time, learning from the previous ones’ mistakes.
+More sensitive to overfitting but usually more accurate.
+Also evaluated using MAE.
+
+- XGBoost Regressor
+An optimized and regularized version of Gradient Boosting.
+Very popular for structured data competitions (like Kaggle).
+Provided the best prediction accuracy out of the three models in this project.
+
+3. Model Evaluation
+I used Mean Absolute Error (MAE) to compare the models. Lower MAE = better predictions.
+A bar chart was created to visually compare model performances.
+A scatter plot was used to check how close the predicted prices were to the actual prices.
+
+4. Final Results
+All three models gave good predictions, but XGBoost performed the best, meaning it made the most accurate predictions overall.
+This shows that machine learning can effectively estimate housing prices using available data.
+
+5. What I Learned
+How to clean and prepare real-world data.
+How to split and scale data for machine learning.
+How to train and evaluate multiple regression models.
+How to visualize and interpret prediction results.
+
 
