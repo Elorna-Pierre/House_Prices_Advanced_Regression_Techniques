@@ -200,14 +200,15 @@ df.to_csv('cleaned_data.csv', index=False)
 #Show the size of the new data
 print("Cleaned data shape:", df.shape)
 
-</prev>  
-
+</pre>  
 
 
 ## Model 
 
+![alt text](image-11.png)
 
-## Data Cleaning & Processing 
+![alt text](image-12.png)
+
 
 1. Data Preparation
 - I started with a cleaned dataset containing numeric features and the target variable SalePrice.
